@@ -3,4 +3,7 @@
     <string name="email">email</string>
     <string name="message">message</string>
     <string name="button">Send</string>
+    <string name="success">Success</string>
+    <string name="message_is_empty">Message is empty</string>
+    <string name="Validation_error">Validation error</string>
 </resources>
