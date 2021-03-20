@@ -5,7 +5,8 @@ sudo: false
 after_success:
   - bash <(curl -s https://codecov.io/bash)
 env:
-  global: CODECOV_TOKEN="5ae23135-c76b-405e-b11b-7f647191ea98"
+  global:
+    - CODECOV_TOKEN="5ae23135-c76b-405e-b11b-7f647191ea98"
 notifications:
   email:
     recipients:
